@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bnr-icons{
+    color:  black;
+    background: #FFFFFF;
+    Width: 25px;
+    height:25px;
+    Left: 80px;
+    border-radius: 50%;
+}
+
+.bnr-indicators{
+    Width: 12px;
+    Height: 12px;
+    Top: 552px;
+    Left: 120px;
+    margin: 10px 0px;
+    padding: 5px 20px;
+    display: flex;
+}
+
+.bnr-downArrow{
+    height: 16.17px;
+    width: 8.08px;
+    left: 728.17px;
+    top: 796.03px;
+    border-radius: 0px;
+    border: 2px solid #FFFFFF;
+}
+
+.home {
+    display: flex;
+    height: 550px;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.home::before {
+    content: "";
+    background :url('../image/unsplash_91AQt9p4Mo8.png') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 635px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+} 
+
+.home h1{
+    color: white;
+    text-align:left;
+}
+
+.home p{
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid white;
+    background: #2C6FDE;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
